@@ -146,7 +146,7 @@ Kamov Ka 50 "Black Shark" simulation config.
       <file>Aircraft/Ka-50/Nasal/bladevisible.nas</file>
       <file>Aircraft/Ka-50/Nasal/fcs-management.nas</file>
 
-      <file>Aircraft/Generic/fcs.nas</file>
+      <file>Aircraft/Generic/helicopter-fcs.nas</file>
     </ka50>
   </nasal>
 
