@@ -11,6 +11,11 @@
     <!-- Transparence -->
   </animation>
 
+  <effect>
+    <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
+    <object-name>tubes</object-name>
+  </effect>
+
   <!-- Les roquettes -->
   <!-- Gauche -->
   <model>

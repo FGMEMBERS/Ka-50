@@ -148,9 +148,9 @@
        <z-m> 0.000 </z-m>
     </center>
     <axis>
-      <x> 0.000 </x>
-      <y> 1.000 </y>
-      <z> 0.000 </z>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
     </axis>
   </animation>
 
@@ -179,9 +179,9 @@
        <z-m> -0.002 </z-m>
     </center>
     <axis>
-      <x> 0.000 </x>
-      <y> 1.000 </y>
-      <z> 0.000 </z>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
     </axis>
   </animation>
 
@@ -207,9 +207,9 @@
        <z-m> -0.004 </z-m>
     </center>
     <axis>
-      <x> 0.000 </x>
-      <y> 1.000 </y>
-      <z> 0.000 </z>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
     </axis>
   </animation>
 
@@ -232,9 +232,9 @@
        <z-m> -0.006 </z-m>
     </center>
     <axis>
-      <x> 0.000 </x>
-      <y> 1.000 </y>
-      <z> 0.000 </z>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
     </axis>
   </animation>
 
@@ -253,7 +253,7 @@
   <animation>
     <type>rotate</type>
     <object-name>TotalBlade</object-name>
-    <property>rotors/main/blade[5]/incidence-deg</property>
+    <property>rotors/main/blade[2]/incidence-deg</property>
     <center>
        <x-m> 0.387 </x-m>
        <y-m> 0.001 </y-m>

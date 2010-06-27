@@ -137,8 +137,10 @@ Kamov Ka 50 "Black Shark" simulation config.
   </rotors>
 
   <nasal>
-    <ka50>
+    <doors>
       <file>Aircraft/Ka-50/Nasal/doors.nas</file>
+    </doors>
+    <ka50>
       <file>Aircraft/Ka-50/Nasal/immat.nas</file>
       <file>Aircraft/Ka-50/Nasal/light.nas</file>
       <file>Aircraft/Ka-50/Nasal/ka50.nas</file>

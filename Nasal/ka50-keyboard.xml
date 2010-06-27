@@ -36,7 +36,7 @@
     <desc>Passenger door</desc>
     <binding>
       <command>nasal</command>
-      <script>ka50.doorsystem.passengerexport();</script>
+      <script>doors.doorsystem.passengerexport();</script>
     </binding>
   </key>
 
@@ -45,7 +45,7 @@
     <desc>Crew door</desc>
     <binding>
       <command>nasal</command>
-      <script>ka50.doorsystem.crewexport();</script>
+      <script>doors.doorsystem.crewexport();</script>
     </binding>
   </key>
 

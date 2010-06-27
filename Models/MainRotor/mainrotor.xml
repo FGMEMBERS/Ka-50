@@ -18,12 +18,12 @@
     <name>Blade1</name>
     <path>Aircraft/Ka-50/Models/MainRotor/blade1.xml</path>
     <offsets>
-      <x-m> 0.000 </x-m>
-      <y-m> 0.000 </y-m>
-      <z-m> 0.700 </z-m>
-      <roll-deg>    0.000 </roll-deg>
-      <pitch-deg>   0.000 </pitch-deg>
-      <heading-deg> 0.000 </heading-deg>
+      <x-m> 0.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.7 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
     </offsets>
   </model>
 
@@ -31,12 +31,12 @@
     <name>Blade2</name>
     <path>Aircraft/Ka-50/Models/MainRotor/blade2.xml</path>
     <offsets>
-      <x-m> 0.000 </x-m>
-      <y-m> 0.000 </y-m>
-      <z-m> 0.700 </z-m>
-      <roll-deg>      0.000 </roll-deg>
-      <pitch-deg>     0.000 </pitch-deg>
-      <heading-deg> 120.000 </heading-deg>
+      <x-m> 0.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.7 </z-m>
+      <roll-deg>      0 </roll-deg>
+      <pitch-deg>     0 </pitch-deg>
+      <heading-deg> 120 </heading-deg>
     </offsets>
   </model>
 
@@ -44,12 +44,12 @@
     <name>Blade3</name>
     <path>Aircraft/Ka-50/Models/MainRotor/blade3.xml</path>
     <offsets>
-      <x-m> 0.000 </x-m>
-      <y-m> 0.000 </y-m>
-      <z-m> 0.700 </z-m>
-      <roll-deg>      0.000 </roll-deg>
-      <pitch-deg>     0.000 </pitch-deg>
-      <heading-deg> 240.000 </heading-deg>
+      <x-m> 0.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.7 </z-m>
+      <roll-deg>      0 </roll-deg>
+      <pitch-deg>     0 </pitch-deg>
+      <heading-deg> 240 </heading-deg>
     </offsets>
   </model>
 
@@ -57,12 +57,12 @@
     <name>Blade4</name>
     <path>Aircraft/Ka-50/Models/MainRotor/blade4.xml</path>
     <offsets>
-      <x-m> 0.000 </x-m>
-      <y-m> 0.000 </y-m>
-      <z-m> 2.230 </z-m>
-      <roll-deg>   180.000 </roll-deg>
-      <pitch-deg>    0.000 </pitch-deg>
-      <heading-deg> 60.000 </heading-deg>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.00 </y-m>
+      <z-m> 2.23 </z-m>
+      <roll-deg>   180 </roll-deg>
+      <pitch-deg>    0 </pitch-deg>
+      <heading-deg> 60 </heading-deg>
     </offsets>
   </model>
 
@@ -70,12 +70,12 @@
     <name>Blade5</name>
     <path>Aircraft/Ka-50/Models/MainRotor/blade5.xml</path>
     <offsets>
-      <x-m> 0.000 </x-m>
-      <y-m> 0.000 </y-m>
-      <z-m> 2.230 </z-m>
-      <roll-deg>    180.000 </roll-deg>
-      <pitch-deg>     0.000 </pitch-deg>
-      <heading-deg> 180.000 </heading-deg>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.00 </y-m>
+      <z-m> 2.23 </z-m>
+      <roll-deg>    180 </roll-deg>
+      <pitch-deg>     0 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
     </offsets>
   </model>
 
@@ -83,12 +83,12 @@
     <name>Blade6</name>
     <path>Aircraft/Ka-50/Models/MainRotor/blade6.xml</path>
     <offsets>
-      <x-m> 0.000 </x-m>
-      <y-m> 0.000 </y-m>
-      <z-m> 2.230 </z-m>
-      <roll-deg>    180.000 </roll-deg>
-      <pitch-deg>     0.000 </pitch-deg>
-      <heading-deg> 300.000 </heading-deg>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.00 </y-m>
+      <z-m> 2.23 </z-m>
+      <roll-deg>    180 </roll-deg>
+      <pitch-deg>     0 </pitch-deg>
+      <heading-deg> 300 </heading-deg>
     </offsets>
   </model>
 
