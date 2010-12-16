@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-************************************************************************
-Kamov Ka 50 "Black Shark" simulation config.
 
-************************************************************************
+<!--
+     ************************************************************************
+                  Kamov Ka 50 "Black Shark" simulation config.
+     ************************************************************************
 -->
 
 <PropertyList>
@@ -33,13 +33,27 @@ Kamov Ka 50 "Black Shark" simulation config.
         <file type="string">default</file>
       </livery>
       <ka50>
-        <state type="int">0</state>
-        <engine type="float">0.0</engine>
-        <rotor-step-deg type="float">-1.0</rotor-step-deg>
+        <state type="int"> 0 </state>
+        <engine type="float"> 0 </engine>
+        <rotor-step-deg type="float"> -1 </rotor-step-deg>
       </ka50>
     </model>
 
-   <weight n="0">
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int" n="0">0</int>
+        <int type="int" n="1">0</int>
+        <int type="int" n="2">0</int>
+        <int type="int" n="3">0</int>
+        <int type="int" n="4">0</int>
+        <int type="int" n="5">0</int>
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+      </generic>
+    </multiplay>
+
+    <weight n="0">
       <name>Pilot</name>
       <weight-lb>180</weight-lb>
       <max-lb>300</max-lb>
@@ -106,11 +120,11 @@ Kamov Ka 50 "Black Shark" simulation config.
       </engine>
     </engines>
     <gear>
-      <brake-parking>1</brake-parking>
+      <brake-parking> 1 </brake-parking>
     </gear>
     <rotor>
-      <reltarget>1</reltarget>
-      <maxreltorque>1</maxreltorque>
+      <reltarget> 1 </reltarget>
+      <maxreltorque> 1 </maxreltorque>
     </rotor>
   </controls>
 
