@@ -12,4 +12,24 @@
     <!-- Objets transparents -->
   </animation>
 
+  <!-- AI --> 
+  <model>
+    <path>Aircraft/Ka-50/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.083 </x-m>
+      <y-m> -0.221 </y-m>
+      <z-m>  0.159 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VSI --> 
+  <model>
+    <path>Aircraft/Ka-50/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -0.080 </x-m>
+      <y-m> -0.240 </y-m>
+      <z-m>  0.275 </z-m>
+    </offsets>
+  </model>
+
 </PropertyList>

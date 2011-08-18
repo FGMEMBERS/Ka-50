@@ -192,6 +192,12 @@
     <object-name>vitreavant</object-name>
   </animation>
 
+  <!-- Une ombre pour OSG  -->
+  <model>
+    <name>shadowOSG</name>
+    <path>Aircraft/Ka-50/Models/shadow.xml</path>
+  </model>
+
   <!-- Intérieur -->
   <model>
     <path>Aircraft/Ka-50/Models/Interior/interior.xml</path>
