@@ -9,7 +9,7 @@
     <engine>
       <name>Start external</name>
       <mode>once</mode>
-      <path>Aircraft/AirCrane/Sounds/turbine-start.wav</path>
+      <path>Aircraft/Ka-50/Sounds/turbine-start.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -51,7 +51,7 @@
     <engine>
       <name>Start internal</name>
       <mode>once</mode>
-      <path>Aircraft/AirCrane/Sounds/turbine-start-in.wav</path>
+      <path>Aircraft/Ka-50/Sounds/turbine-start-in.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -87,7 +87,7 @@
     <engine>
       <name>Turbine external</name>
       <mode>looped</mode>
-      <path>Aircraft/AirCrane/Sounds/turbine-loop.wav</path>
+      <path>Aircraft/Ka-50/Sounds/turbine-loop.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -129,7 +129,7 @@
     <engine>
       <name>Turbine internal</name>
       <mode>looped</mode>
-      <path>Aircraft/AirCrane/Sounds/turbine-loop-in.wav</path>
+      <path>Aircraft/Ka-50/Sounds/turbine-loop-in.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -165,7 +165,7 @@
     <engine>
       <name>Shutdown external</name>
       <mode>once</mode>
-      <path>Aircraft/AirCrane/Sounds/turbine-stop.wav</path>
+      <path>Aircraft/Ka-50/Sounds/turbine-stop.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -207,7 +207,7 @@
     <engine>
       <name>Shutdown internal</name>
       <mode>once</mode>
-      <path>Aircraft/AirCrane/Sounds/turbine-stop-in.wav</path>
+      <path>Aircraft/Ka-50/Sounds/turbine-stop-in.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -243,7 +243,7 @@
     <rotor>
       <name>Rotor external</name>
       <mode>looped</mode>
-      <path>Aircraft/AirCrane/Sounds/rotor-loop.wav</path>
+      <path>Aircraft/Ka-50/Sounds/rotor-loop.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -296,7 +296,7 @@
     <rotor>
       <name>Rotor internal</name>
       <mode>looped</mode>
-      <path>Aircraft/AirCrane/Sounds/rotor-loop-in.wav</path>
+      <path>Aircraft/Ka-50/Sounds/rotor-loop-in.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -338,7 +338,7 @@
     <contact>
       <name>ground contact</name>
       <mode>once</mode>
-      <path>Aircraft/AirCrane/Sounds/wheel.wav</path>
+      <path>Aircraft/Ka-50/Sounds/wheel.wav</path>
       <condition>
         <property>gear/gear[0]/wow</property>
       </condition>
@@ -355,7 +355,7 @@
     <contact>
       <name>ground contact</name>
       <mode>once</mode>
-      <path>Aircraft/AirCrane/Sounds/wheel.wav</path>
+      <path>Aircraft/Ka-50/Sounds/wheel.wav</path>
       <condition>
         <property>gear/gear[1]/wow</property>
       </condition>
@@ -372,7 +372,7 @@
     <contact>
       <name>ground contact</name>
       <mode>once</mode>
-      <path>Aircraft/AirCrane/Sounds/wheel.wav</path>
+      <path>Aircraft/Ka-50/Sounds/wheel.wav</path>
       <condition>
         <property>gear/gear[2]/wow</property>
       </condition>
