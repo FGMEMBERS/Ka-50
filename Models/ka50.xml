@@ -122,39 +122,48 @@
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>texture.png</texture>
-<!--
-    <diffuse>
-      <red-prop>diffuse/red</red-prop>
-      <green-prop>diffuse/green</green-prop>
-      <blue-prop>diffuse/blue</blue-prop>
-    </diffuse>
-
-    <ambient>
-      <red-prop>ambient/red</red-prop>
-      <green-prop>ambient/green</green-prop>
-      <blue-prop>ambient/blue</blue-prop>
-    </ambient>
--->
     <specular>
       <red-prop>specular/red</red-prop>
       <green-prop>specular/green</green-prop>
       <blue-prop>specular/blue</blue-prop>
     </specular>
-
     <emission>
       <red-prop>emission/red</red-prop>
       <green-prop>emission/green</green-prop>
       <blue-prop>emission/blue</blue-prop>
     </emission>
-<!--
-    <shininess>
-      <shininess-prop>shininess</shininess-prop>
-    </shininess>
--->
   </animation>
 
   <effect>
     <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
+    <condition>
+      <not><property>sim/rendering/rembrandt/enabled</property></not>
+    </condition>
+    <object-name>fuselage</object-name>
+    <object-name>ailes</object-name>
+    <object-name>ailes2</object-name>
+    <object-name>profondeurG</object-name>
+    <object-name>profondeurD</object-name>
+    <object-name>vertical</object-name>
+    <object-name>attachemoteurs</object-name>
+    <object-name>derive</object-name>
+    <object-name>direction</object-name>
+    <object-name>trimdir</object-name>
+    <object-name>supports</object-name>
+    <object-name>boutsailes</object-name>
+    <object-name>porteG</object-name>
+    <object-name>porteAG</object-name>
+    <object-name>porteD</object-name>
+    <object-name>porteAD</object-name>
+    <object-name>bossage</object-name>
+    <object-name>ailettes</object-name>
+  </effect>
+
+  <effect>
+    <inherits-from>Effects/model-combined-deferred</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
     <object-name>fuselage</object-name>
     <object-name>ailes</object-name>
     <object-name>ailes2</object-name>
@@ -192,6 +201,19 @@
     <object-name>vitreavant</object-name>
   </animation>
 
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+    <object-name>vitres</object-name>
+    <object-name>lampeG</object-name>
+    <object-name>lampeD</object-name>
+    <object-name>lampetoit</object-name>
+    <object-name>vitreavant</object-name>
+  </effect>
+
   <!-- Une ombre pour OSG  -->
   <model>
     <path>Aircraft/Ka-50/Models/shadow.xml</path>
@@ -204,8 +226,15 @@
 
   <!-- Intérieur -->
   <model>
+    <name>Interieur</name>
     <path>Aircraft/Ka-50/Models/Interior/interior.xml</path>
   </model>
+
+    <!-- For Rembrandt -->
+  <animation>
+    <type>noshadow</type>
+    <object-name>Interieur</object-name>
+  </animation>
 
   <!-- Les missiles -->
   <model>
@@ -735,7 +764,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Ka-50/Models/light/StrobeWhite.xml</path>
+    <path>Aircraft/Ka-50/Models/light/StrobeLight.xml</path>
     <offsets>
       <x-m>  0.354 </x-m>
       <y-m> -3.699 </y-m>
@@ -753,7 +782,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Ka-50/Models/light/StrobeWhite.xml</path>
+    <path>Aircraft/Ka-50/Models/light/StrobeLight.xml</path>
     <offsets>
       <x-m> 0.354 </x-m>
       <y-m> 3.699 </y-m>

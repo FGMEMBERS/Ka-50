@@ -8,7 +8,7 @@ OBJECT poly
 name "fuselage.003"
 data 12
 fuselage.003
-texture "colors.png"
+texture "interior.png"
 texrep 1 1
 crease 30.000000
 numvert 144
@@ -666,7 +666,7 @@ OBJECT poly
 name "interieur"
 data 9
 interieur
-texture "colors.png"
+texture "interior.png"
 texrep 1 1
 crease 30.000000
 numvert 128
