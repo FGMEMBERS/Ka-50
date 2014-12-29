@@ -13,18 +13,12 @@
     <object-name>intvitres</object-name>
   </animation>
 
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Ka-50/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
-  </animation>
-
-  <animation>
-    <type>noshadow</type>
-    <object-name>intvitres</object-name>
-  </animation>
-
+  </effect>
+  
   <!-- Planche de bord -->
   <model>
     <path>Aircraft/Ka-50/Models/Interior/Panel/panel.xml</path>
@@ -32,9 +26,6 @@
       <x-m> -2.653 </x-m>
       <y-m>  0.000 </y-m>
       <z-m> -0.206 </z-m>
-      <roll-deg>    0 </roll-deg>
-      <pitch-deg>   0 </pitch-deg>
-      <heading-deg> 0 </heading-deg>
     </offsets>
   </model>
 
@@ -49,4 +40,3 @@
   </model>
 
 </PropertyList>
-
