@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
-
+  
   <path>shadow.ac</path>
-
+  
   <animation>
     <!-- Objets opaques -->
-
+    
     <!-- Objets transparents -->
     <object-name>shadow1</object-name>
     <object-name>shadow2</object-name>
     <object-name>shadow3</object-name>
   </animation>
-
+  
   <animation>
     <type>noshadow</type>
     <object-name>shadow1</object-name>
     <object-name>shadow2</object-name>
     <object-name>shadow3</object-name>
   </animation>
-
+  
   <animation>
     <name>OmbreTotale</name>
     <object-name>shadow1</object-name>
     <object-name>shadow2</object-name>
     <object-name>shadow3</object-name>
   </animation>
-
+  
   <animation>
     <type>select</type>
     <object-name>OmbreTotale</object-name>
     <condition>
-        <and>
-          <not><property>sim/freeze/replay-state</property></not>
-          <not><property>sim/rendering/shadows/enabled</property></not>
-        </and>
+      <and>
+        <not><property>sim/freeze/replay-state</property></not>
+        <not><property>sim/rendering/shadows/enabled</property></not>
+      </and>
     </condition>
   </animation>
-
+  
   <!-- Une ombre pour OSG en attendant mieux ;) basé sur l'ombre du DC 3-->
   <!-- pitch -->
   <animation>
@@ -51,7 +51,7 @@
       <z> 0 </z>
     </axis>
   </animation>
-
+  
   <!-- roll -->
   <animation>
     <type>rotate</type>
@@ -64,20 +64,20 @@
       <z> 0 </z>
     </axis>
   </animation>
-
+  
   <!-- Translate to ground level -->
   <animation>
-   <type>translate</type>
-   <object-name>OmbreTotale</object-name>
-   <property>sim/multiplay/generic/float[2]</property>
-   <factor> -1 </factor>
-   <axis>
-     <x> 0 </x>
-     <y> 0 </y>
-     <z> 1 </z>
-   </axis>
- </animation>
-
+    <type>translate</type>
+    <object-name>OmbreTotale</object-name>
+    <property>sim/multiplay/generic/float[2]</property>
+    <factor> -1 </factor>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+  
   <animation>
     <type>rotate</type>
     <object-name>shadow2</object-name>
@@ -93,7 +93,7 @@
       <z> 1 </z>
     </axis>
   </animation>
-
+  
   <animation>
     <type>rotate</type>
     <object-name>shadow3</object-name>
@@ -109,5 +109,5 @@
       <z> -1 </z>
     </axis>
   </animation>
-
+  
 </PropertyList>

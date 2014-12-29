@@ -6,8 +6,8 @@
     
     <model>
       <livery>
-        <name type="string">Default - USSR Army Aviation</name>
-        <texture>texture.png</texture>
+        <name type="string">Kamov Design Bureau - Prototype 4</name>
+        <texture>Liveries/2048x2048/KDBproto4.png</texture>
         <specular>
           <red>   0.3 </red>
           <green> 0.3 </green>
